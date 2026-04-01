@@ -162,3 +162,12 @@ nav a {
     * {
     box-sizing: border-box;
 }
+    .team-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
