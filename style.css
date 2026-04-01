@@ -127,3 +127,44 @@ html {
 .contact {
     background: #fff8e7;
 }
+
+/* Center everything like your main section */
+.team-info {
+    display: none;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.card.active .team-info {
+    display: block;
+}
+
+/* Image styling */
+.team-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px auto;
+    display: block;
+}
+
+/* Text styling like your intro */
+.team-text {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Card styling */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+}
