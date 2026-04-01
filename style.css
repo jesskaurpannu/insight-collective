@@ -126,3 +126,39 @@ html {
 }
 .contact {
     background: #
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+    header h1 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+    nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+    body {
+    margin: 0;
+    padding-top: 70px;
+}
+
+    * {
+    box-sizing: border-box;
+}
